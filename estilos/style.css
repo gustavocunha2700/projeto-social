@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -39,5 +40,27 @@ section#telefone {
     left: 22px;
     width: 269px;
     height: 471px;
-    
+
 }
+
+#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+#redes-sociais {
+   text-align: right;
+}
+
+#redes-sociais img {
+    transition: transform 0.3s ease;
+}
+#redes-sociais img:hover {
+    transform: scale(1.2);
+    border: 2px solid rgba(255, 255, 255, 0.641);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.641);
+}
+
